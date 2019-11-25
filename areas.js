@@ -29,6 +29,6 @@ base = Number(readlineSync.question("Enter a base: "));
 height = Number(readlineSync.question("Enter a height: "));
 let trianglearea = ((base * height)/2).toLocaleString("en", { minimumFractionDigits: 2, maximumFractionDigits: 2});
 console.log("\nArea: " + trianglearea)
-
+}
 
 }
